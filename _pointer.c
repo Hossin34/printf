@@ -6,7 +6,7 @@
  *
  * Return: The length of the number
  */
-int	_ptr_len(unsigned long long num)
+int	_ptr_len(unsigned long num)
 {
 	int	len;
 
@@ -25,7 +25,7 @@ int	_ptr_len(unsigned long long num)
  *
  * Return: The number of digits printed
  */
-void	_put_ptr(unsigned long long num)
+void	_put_ptr(unsigned long num)
 {
 	if (num >= 16)
 	{
@@ -47,7 +47,7 @@ void	_put_ptr(unsigned long long num)
  *
  * Return: The number of digits printed
  */
-int	_ptr(unsigned long long ptr)
+int	_ptr(unsigned long ptr)
 {
 	int	length;
 

@@ -12,7 +12,7 @@ int		_printstr(char *str);
 int		_printnbr(int n);
 int		_percent(void);
 int		_handle_uns(unsigned int n);
-int		_ptr(unsigned long long ptr);
+int		_ptr(unsigned long ptr);
 void		_put_hex(unsigned int num, const char format);
 int		_hex(unsigned int num, const char format);
 void		_putchar(char c);

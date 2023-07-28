@@ -54,7 +54,7 @@ int _all(const char format, va_list args, int *i)
 	else if (format == 's')
 		length += _printstr(va_arg(args, char *));
 	else if (format == 'p')
-		length += _ptr((unsigned long long)va_arg(args, void *));
+		length += _ptr((unsigned long)va_arg(args, void *));
 	else if (format == 'd' || format == 'i')
 		length += _printnbr(va_arg(args, int));
 	else if (format == 'u')
